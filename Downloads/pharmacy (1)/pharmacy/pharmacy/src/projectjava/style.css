@@ -1,0 +1,61 @@
+#AnchorPane{
+-fx-background-color:#0F1630;
+}
+#header{
+
+ -fx-font-size: 30px;
+ -fx-font-weight: bolder;
+ -fx-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.btn1{
+   -fx-background-color:#f1632a; 
+}
+.btn2{
+   -fx-background-color:#3399cc;
+
+}
+.tusername,
+.tpassword,
+.scane,
+.search,
+.input{
+-fx-border-color:#f1632a;
+-fx-border-width: 3px;
+-fx-border-radius: 10px;
+-fx-background-color:#0F1630;
+-fx-text-fill:white;
+}
+.tab-header-background {
+   -fx-background-color:#f1632a;
+}
+
+#tab{
+   -fx-background-color:#0F1630;
+   -fx-text-base-color:white;
+}
+
+/* .col{
+   -fx-background-color:#f1632a; 
+   -fx-border-width:2px;
+   -fx-border-color:#0F1630;
+  
+   
+} */
+
+.table{
+   -fx-border-color:#f1632a;
+   -fx-border-width: 2px;
+   -fx-font-size:20px;
+   fx-background-color:#0F1630;
+}
+.col{
+   -fx-border-width:1px;
+   -fx-border-color:#0F1630;
+   -fx-background-color:#f1632a;
+   -fx-background-radius: 0;
+   -fx-background-insets: 0;
+   fx-background-insets:#0F1630;
+   -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 2, 0.5, 1, 1);
+    -fx-text-fill:white;
+
+}
