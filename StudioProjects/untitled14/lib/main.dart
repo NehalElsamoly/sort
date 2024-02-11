@@ -18,8 +18,8 @@ import 'package:flutter_translate/flutter_translate.dart';
 void main() async{
   print("nehal");
   var delegate = await LocalizationDelegate.create(
-      fallbackLocale: 'en_US',
-      supportedLocales: ['en_US', 'es', 'fa', 'ar', 'ru']);
+      fallbackLocale: 'ar',
+      supportedLocales: ['ar', 'en_US']);
 
   runApp(LocalizedApp(delegate, MyApp()));
 }
@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
     } else {
       // If no language is saved, default to English
       setState(() {
-        selectedLanguage = 'English';
+        selectedLanguage = 'Arabic';
       });
     }
   }
